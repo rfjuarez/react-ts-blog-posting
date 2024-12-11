@@ -1,0 +1,47 @@
+.text{
+    /*width: max-content;*/
+    /*height: max-content;*/
+    padding: var(--padding--small) var(--padding--medium);
+    word-break: break-word;
+    font-style: normal;
+    font-variant: normal;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color--primary);
+    background: var(--background-color--secondary);
+}
+.text--small{
+    font-size: var(--font-size--small);
+    line-height: var(--line-height--small);
+    font-weight: var(--font-weight--small);
+}
+.text--normal{
+    font-size: var(--font-size--normal);
+    line-height: var(--line-height--normal);
+    font-weight: var(--font-weight--normal);
+}
+.text--subtitle{
+    font-size: var(--font-size--medium);
+    line-height: var(--line-height--medium);
+    font-weight: var(--font-weight--medium);
+}
+.text--title{
+    font-size: var(--font-size--large);
+    line-height: var(--line-height--large);
+    font-weight: var(--font-weight--large);
+}
+.text--center{
+    text-align: center;
+}
+.text--left{
+    text-align: left;
+}
+.text--right{
+    text-align: right;
+}
+.text--justify{
+    text-align: justify;
+    hyphens: auto;
+}
+.text--disabled{
+    color: var(--text-color--disabled);
+}
